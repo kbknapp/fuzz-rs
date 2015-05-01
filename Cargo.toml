@@ -1,0 +1,16 @@
+[package]
+name = "fuzz"
+version = "0.1.0"
+authors = ["Kevin K <kbknapp@gmail.com>"]
+description = "Basic fuzzy string matching"
+keywords = ["fuzzy", "string", "match"]
+license = "MIT"
+repository = "https://github.com/kbknapp/fuzz-rs.git"
+documentation = "http://kbknapp.github.io/fuzz-rs"
+readme = "README.md"
+
+[features]
+default=[]
+
+# for building with nightly and unstable features
+unstable=[]
